@@ -4,8 +4,8 @@ import NumberPuzzle from '../../src/NumberPuzzle.vue'
 // import { NumberPuzzle } from '../../dist/nt-number-puzzle.es'
 // import '../../dist/number-puzzle.css';
 
-const labels = ""
-// const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// const labels = ""
+const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 const setComplate = (value) => {
   console.log(value)
