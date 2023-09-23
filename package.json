@@ -18,12 +18,22 @@
       "require": "./dist/t-number-puzzle.umd.js"
     }
   },
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "bugs": {
     "url": "https://github.com/noistommy/nt-number-puzzle/issues"
   },
   "homepage": "https://github.com/noistommy/nt-number-puzzle#reaadme",
-  "keywords": ["vue", "game", "puzzle", "component", "retro", "classic"],
+  "keywords": [
+    "vue",
+    "game",
+    "puzzle",
+    "component",
+    "retro",
+    "classic"
+  ],
   "style": "./dist/number-puzzle.css",
   "peerDependencies": {
     "sass": "^1.67.0",
@@ -31,6 +41,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compiler-sfc": "^3.3.4",
     "vite": "^4.4.5"
   }
 }
