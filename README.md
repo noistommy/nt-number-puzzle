@@ -24,7 +24,7 @@ import 'nt-number-puzzle/number-puzzle.css';
 <NtNumberPuzzle
   :grid-size="4" // default: 4
   :cell-size="4" // default: 4(rem)
-  labels = "..."
+  label-text = "..."
 />
 
 ```
@@ -38,5 +38,7 @@ Setting for number tile grid`s vertical/horizontal size.
 * **cellSize**: _number_ ▶︎ `4`   
 Setting for tiles size(unit rem).
 
-* **labels**: _string_ ▶︎ ``   
-Setting for display tilea text
+* **labelText**: _string_ ▶︎ ``   
+Setting for display tile text
+
+---
