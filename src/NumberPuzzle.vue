@@ -7,12 +7,16 @@ const props = defineProps({
     type: Number,
     default: 3
   },
-  labelText: String
+  labelText: String,
+  counting: {
+    type: Boolean,
+    default: false
+  }
 })
 
 const emits = defineEmits(['complate']);
 
-const {gridSize, cellSize, labelText} = props;
+const {gridSize, cellSize, labelText, counting} = props;
 
 let numbers = Array.from({ length: gridSize * gridSize - 1 }, (_, i) => { return { id: i, text: i + 1}});
 let lastWord = { x: gridSize - 1, y: gridSize - 1, item: gridSize * gridSize};
@@ -46,7 +50,7 @@ const setGrid = () => {
   });
 };
 
-function resetGrid() {
+function retryGrid() {
   numbers = numbers.sort(() => Math.random() - 0.5);
   matrix.value = setGrid();
 
@@ -125,9 +129,11 @@ const moveRight = () => {
     @keydown.ctrl="showOrder = !showOrder"
   >
     <div class="header">
-      <div class="counter">{{ counter }}</div>
-      <button class="reset-btn" @click="resetGrid">
-        {{ complate ? "START" : "RESET" }}
+      <div class="point">
+        <div class="counter" v-if="counting">{{ counter }}</div>
+      </div>
+      <button class="retry-btn" @click="retryGrid">
+        {{ complate ? "START" : "RETRY" }}
       </button>
     </div>
     <div class="cell-wrapper" :class="{complate: complate}">
@@ -157,11 +163,12 @@ $issue_red: #D75757;
     font-weight: bold;
     line-height: 1em;
   }
-  .reset-btn {
+  .retry-btn {
     //position: absolute;
     //top: 0;
     //left: calc(100% + 5px);
-    background: linear-gradient(180deg, lighten($issue_red, 10), darken($issue_red, 30));
+    // background: linear-gradient(180deg, lighten($issue_red, 10), darken($issue_red, 30));
+    background-color: $issue_red;
     padding: 0.56em 1em;
     border-radius: 0.4em;
     color: #fff;
