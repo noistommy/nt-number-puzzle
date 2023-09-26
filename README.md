@@ -8,6 +8,7 @@ nt-number-puzzle
 ![Static Badge](https://img.shields.io/badge/vite-bundler-%23646CFF?style=for-the-badge)
 
 ![nt-number-puzzle-preview](https://github.com/noistommy/nt-number-puzzle/assets/6008185/850e8fef-71ed-4be3-a2aa-72f2271e5635)
+![nt-number-puzzle-preview2](https://github.com/noistommy/nt-number-puzzle/assets/6008185/f3e5fb67-0125-451a-8662-e7b7fc97c930)
 
 
 `nt-number-puzzle` is a module that implements the retro game **numeric puzzle** as `vue` (vue components). Why don't you try to provide simple entertainment for users when developing a personal project or use it for users who are bored while loading long and long data?
