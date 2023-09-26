@@ -38,7 +38,7 @@ Setting for number tile grid`s vertical/horizontal size.
 * **cellSize**: _number_ ▶︎ `4`   
 Setting for tiles size(unit rem).
 
-* **labelText**: _string_ ▶︎ ``   
+* **labelText**: _string_ ▶︎ `''`   
 Setting for display tile text
 
 ---
