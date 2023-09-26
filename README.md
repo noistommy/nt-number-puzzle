@@ -43,13 +43,13 @@ import 'nt-number-puzzle/number-puzzle.css';
 ## Props
 
 * **gridSize**: _number_ ▶︎ `4`    
-Setting for number tile grid`s vertical/horizontal size.
+Set the vertical/horizontal size of tile grid.
 
 * **cellSize**: _number_ ▶︎ `4`   
-Setting for tiles size(unit rem).
+Setting the size of tiles(unit rem).
 
 * **labelText**: _string_ ▶︎ `''`   
-Setting for display tile text
+Setting letters to display tiles.
 
 ---
 
