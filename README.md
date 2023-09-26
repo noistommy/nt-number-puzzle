@@ -52,3 +52,16 @@ Setting for tiles size(unit rem).
 Setting for display tile text
 
 ---
+
+## How to play
+
+* Click the `START` button to start game.
+* Click to move up, down, left, and right tiles of empty tiles.
+* Place the tiles in order.
+* When all the tiles are placed in order, the game ends.
+* You can specify the tiles to move by pressing the `top`, `bottom`, `left`, and `right` keys on the keyboard.
+* You can move an active tile by pressing the `space` key.
+* Press the `ctrl` key to display the order of the tiles.
+* If you click the `RETRY` button during the game, the tiles will mix and restart the game.
+---
+

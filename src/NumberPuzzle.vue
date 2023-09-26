@@ -120,7 +120,11 @@ const moveRight = () => {
   <div
     class="puzzle"
     tabindex="0"
-    :style="{ '--grid-size': gridSize,  '--cell-size': `${cellSize}rem` }"
+    :style="{ 
+      '--grid-size': gridSize,
+      '--cell-size': `${cellSize}rem`,
+      '--cell-gap': `${cellSize / 10}rem`
+    }"
     @keydown.up="moveUp"
     @keydown.down="moveDown"
     @keydown.left="moveLeft"
