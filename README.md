@@ -16,6 +16,11 @@ nt-number-puzzle
 `nt-number-puzzle`은 레트로 게임인 **숫자 퍼즐**을 `vue`(vue components)로 구현한 모듈입니다. 개인프로젝트 개발 시 사용자를 위한 간단한 즐길거리를 제공하려 하거나 길고 긴 데이터 로딩 중 심심한 사용자들을 위해 사용해 보는것은 어떨까요??
 
 ---
+## Demo
+
+[nt-number-puzzle](https://noistommy.github.io/nt-number-puzzle) demo page.
+
+---
 ## Installation
 
 ```sh
